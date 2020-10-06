@@ -1,0 +1,186 @@
+.first-sec{
+    width: 100%;
+    background-image: url(../images/sec-1.jpeg);
+    padding: 40px 20px;
+    .logo{
+        width: 100%;
+    }
+    ul{
+        text-decoration: none;
+        
+    
+    }
+    li{
+        display: inline-block;
+        margin: 15px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+    h2{
+        color: #fff;
+        text-align: center;
+        font-size: 40px;
+        padding: 60px 6em;
+    }
+    a:hover{
+        color: #22b63b;
+    }
+    h5{
+        color: #fff;
+    }
+    .social i{
+        
+            margin: 5px;
+            background: #fff;
+            color: #000;
+            width: 24px;
+            height: 20px;
+            padding: 2px;
+            text-align: center;
+            border-radius: 4px;
+    }
+    .fa-chevron-down:before {
+        padding: 12px 0;
+        color: #fff;
+    }
+    .hire{
+        border: 2px solid;
+        padding: 5px 23px;
+        margin: 0 auto;
+        display: block;
+        width: 110px;
+    }
+    .jason{
+        padding:0;
+        margin: 0 auto;
+        text-align: right;
+    }
+    p{
+        color: #FFF;
+        margin: 0 auto;
+        text-align: right;
+    }
+}
+.work{
+       width: 100%; 
+       background-image: url(../images/sec-2.jpg);
+        padding: 40px 0;
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 50%;
+
+    h2{
+        margin-bottom: 40px;
+    }
+    .line{
+        height: 2px;
+        width: 10%;
+        background: #000;
+        margin-bottom: 5px;
+    }
+    .hire{
+        border: 2px solid;
+        padding: 4px 27px;
+    }
+
+
+}
+.about{
+    padding: 40px 0;
+    background-image: url(../images/hang.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 50%;
+    h2{
+        margin-bottom: 20px;
+    }
+    .line{
+        height: 2px;
+        width: 15%;
+        background: #000;
+        margin-bottom: 14px;
+    }
+}
+.contact{
+    width: 100%;
+    padding: 40px 0;
+    background-image: url(../images/map.jpg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: 50%;
+    float: right;
+    margin-bottom: 30px;
+    .line{
+        height: 2px;
+        width: 15%;
+        background: #000;
+        margin-bottom: 14px;
+        margin-bottom: 30px;
+    }
+    .content{
+        float: left;
+        width: 100%;
+        margin: 14px 0; 
+        i{
+           display: block;
+           margin: 14px 0;
+            
+        }
+        .fa-phone:before{
+            
+            margin-right: 10px;
+            }
+            .fa-envelope:before{
+            
+                margin-right: 10px;
+                }
+    }
+    .social{
+        float: left;
+        width: 100%;
+        margin: 14px 0;
+        i{
+            margin: 10px 19px 10px 0px;
+            background: #000;
+            color: #fff;
+            width: 24px;
+            height: 20px;
+            padding: 2px;
+            text-align: center;
+            border-radius: 4px;
+        }
+    }
+}
+
+
+.footer{
+    width: 100%;
+    float: left;
+    padding: 40px;
+    background: #000;
+    p{
+        text-align: center;
+        width: 100%;
+        color: #fff;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .first-sec{
+      width: 100em;
+      .logo{
+        width: 43em;
+        font-size: 4px;
+      }
+      nav{
+        width: 100em;
+        display: block;
+      }
+    }
+  }
